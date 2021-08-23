@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44076" started-at="2021-08-16T16:31:20 IST" finished-at="2021-08-16T16:32:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44076" started-at="2021-08-16T16:31:20 IST" finished-at="2021-08-16T16:32:04 IST">
+      <class name="flight2.EndToEndFlightBooking">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:flight2.EndToEndFlightBooking@67205a84]" name="beforeTest" is-config="true" duration-ms="17805" started-at="2021-08-16T16:31:20 IST" finished-at="2021-08-16T16:31:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="endToEnd(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flight2.EndToEndFlightBooking@67205a84]" name="endToEnd" duration-ms="19899" started-at="2021-08-16T16:31:40 IST" data-provider="dp1" finished-at="2021-08-16T16:32:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kenadams@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ken]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.999992222E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEnd -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:flight2.EndToEndFlightBooking@67205a84]" name="afterTest" is-config="true" duration-ms="4367" started-at="2021-08-16T16:32:00 IST" finished-at="2021-08-16T16:32:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- flight2.EndToEndFlightBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

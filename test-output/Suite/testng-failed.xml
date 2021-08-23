@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="firefoxTest1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="flight2.MyFlightScript2">
+        <methods>
+          <include name="aPropLoadMethod"/>
+          <include name="reviewdInsuranceYes"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="checkFlightDetails"/>
+          <include name="CheckDefence"/>
+          <include name="checkRoundtrip"/>
+          <include name="maxTravelersCheck"/>
+          <include name="checkSameLocation"/>
+          <include name="reviewInvalidEmail"/>
+          <include name="reviewValidEmail"/>
+          <include name="checkMulticity"/>
+          <include name="beforeTest"/>
+          <include name="webCheckIn"/>
+          <include name="reviewdInsuranceNo"/>
+          <include name="travellerSection2"/>
+          <include name="checkOneway"/>
+          <include name="travellerSection1"/>
+        </methods>
+      </class> <!-- flight2.MyFlightScript2 -->
+    </classes>
+  </test> <!-- firefoxTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
